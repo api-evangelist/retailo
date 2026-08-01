@@ -1,7 +1,29 @@
 aid: retailo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/retailo.png
 name: Retailo
-description: Retailo is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Retailo (Retailo Technologies) operates a B2B marketplace that helps
+  independent retailers across the MENAP region (Middle East, North Africa and
+  Pakistan) restock their shops, offering thousands of products, instant price
+  comparisons and next-day delivery through the Retailo App. Its ecosystem also
+  includes the Hisaab App, a fintech and bookkeeping product for merchants, and
+  HORECA supply services for the hospitality trade. Founded by Talha Ansari,
+  Muhammad Nowkhaiz and Wahaj Ahmed and backed by 500 Global, the company is
+  operational in markets including the UAE and Pakistan. Retailo distributes its
+  products as native iOS and Android mobile applications and, as of this profile,
+  publishes no public developer portal, API documentation, or programmatic
+  integration surface.
 url: https://raw.githubusercontent.com/api-evangelist/retailo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Retail
+- B2B
+- Marketplace
+- E-commerce
+- Fintech
+- Logistics
+- MENAP
+- Pakistan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,16 @@ maintainers:
 common:
 - type: Website
   url: https://retailo.co
+- type: About
+  url: https://retailo.co/about
+- type: Support
+  url: https://retailo.co/contact
+- type: TermsOfService
+  url: https://retailo.co/terms-and-conditions-retailo
+- type: PrivacyPolicy
+  url: https://retailo.co/privacy-policy-retailo
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
